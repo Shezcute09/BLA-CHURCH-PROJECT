@@ -27,32 +27,24 @@ export function ImageSlider() {
         className="mySwiper w-full h-[500]"
       >
         <SwiperSlide>
+          <img className=" w-full h-[500]" src="/assets/worship.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img
             className=" w-full h-[500]"
-            src="/src/assets/worship.png"
+            src="/assets/bibleStudy.png"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             className=" w-full h-[500]"
-            src="/src/assets/bibleStudy.png"
+            src="/assets/prayerService.png"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            className=" w-full h-[500]"
-            src="/src/assets/prayerService.png"
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className=" w-full h-[500]"
-            src="/src/assets/joinUs.png"
-            alt=""
-          />
+          <img className=" w-full h-[500]" src="/assets/joinUs.png" alt="" />
         </SwiperSlide>
       </Swiper>
     </>

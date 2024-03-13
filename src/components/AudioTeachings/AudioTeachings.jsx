@@ -41,12 +41,12 @@ export function AudioTeachings() {
       </div>
 
       <div className="px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mx-auto">
-        <StructureOfTeaching source={`/src/assets/teaching1.png`} link="" />
-        <StructureOfTeaching source={`/src/assets/teaching2.png`} link="" />
-        <StructureOfTeaching source={`/src/assets/teaching3.png`} link="" />
-        <StructureOfTeaching source={`/src/assets/teaching4.png`} link="" />
-        <StructureOfTeaching source={`/src/assets/teaching5.png`} link="" />
-        <StructureOfTeaching source={`/src/assets/teaching6.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching1.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching2.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching3.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching4.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching5.png`} link="" />
+        <StructureOfTeaching source={`/assets/teaching6.png`} link="" />
       </div>
 
       <div className="mx-auto bg-white py-20">

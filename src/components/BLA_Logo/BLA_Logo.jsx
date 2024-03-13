@@ -3,7 +3,7 @@ export function BLA_Logo() {
     <div className="flex justify-center items-center">
       <div className="mt-20 pb-20 self-center">
         <img
-          src="/src/assets/logo.png"
+          src="/assets/logo.png"
           alt="The Believers' Lifeline Assembly Logo"
           className="mx-auto"
         />

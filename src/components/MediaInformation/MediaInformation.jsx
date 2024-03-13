@@ -42,13 +42,13 @@ export function MediaInformation() {
             <hr className="border-b-solid border-b-[#e7b70d] border-b-4 mt-2" />
           </div>
           <Link>
-            <img className="" src="/src/assets/facebook.png" alt="" />
+            <img className="" src="/assets/facebook.png" alt="" />
           </Link>
           <Link>
-            <img className="" src="/src/assets/Instagram.png" alt="" />
+            <img className="" src="/assets/Instagram.png" alt="" />
           </Link>
           <Link>
-            <img className="" src="/src/assets/Youtube.png" alt="" />
+            <img className="" src="/assets/Youtube.png" alt="" />
           </Link>
         </div>
 

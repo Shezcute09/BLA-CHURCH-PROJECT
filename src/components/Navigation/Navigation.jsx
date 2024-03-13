@@ -16,7 +16,7 @@ export function Navigation() {
         <form className="flex items-center bg-[#d9d9d9] px-1 py-1 rounded-2xl h-10 md:w-34 md:px-3 md:py-3">
           <img
             className="mr-1"
-            src="/src/assets/search.png"
+            src="/assets/search.png"
             alt="The search icon"
           />
           <input
