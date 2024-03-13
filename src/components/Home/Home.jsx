@@ -2,7 +2,7 @@ import { AudioTeachings } from "../AudioTeachings/AudioTeachings";
 import { BLA_Logo } from "../BLA_Logo/BLA_Logo";
 import { ImageSlider } from "../ImageSlider/ImageSlider";
 import { MediaInformation } from "../MediaInformation/MediaInformation";
-import { Navigation } from "../navigation/Navigation";
+import { Navigation } from "../Navigation/Navigation";
 
 export function Home() {
   return (
