@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import { StructureOfTeaching } from "../StructureOfTeaching/StructureOfTeaching";
+import { StructureOfTeaching } from "../StructureOfTeaching";
+import { Header } from "../Header";
 
 export function AudioTeachings() {
   return (
     <>
-      <div className="pt-10 px-4 ">
+      <Header />
+      <div className="pt-10 px-4 mt-20">
         <div className="text-center">
           <h1 className=" font-bold md:text-4xl text-2xl ">
             Welcome To Our Official Website
@@ -25,21 +27,22 @@ export function AudioTeachings() {
           Download Teachings
         </h1>
         <main className="mt-10 md:mt-20 mb-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto px-6 sm:px-8 md:px-12 lg:px-16">
-          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl  hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
+          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl rounded-xl bg-[#d9d9d9] hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
             All teachings
           </button>
-          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl  hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
+          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl rounded-xl bg-[#d9d9d9] hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
             2020 Teachings
           </button>
-          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl  hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
+          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl rounded-xl bg-[#d9d9d9] hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
             2022 Teachings
           </button>
-          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl  hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
+          <button className="font-semibold text-lg md:text-xl bg-[#d9d9d9] px-3 md:px-4 py-1 md:py-2 rounded-3xl rounded-xl bg-[#d9d9d9] hover:bg-[#e7b70d] transition-colors duration-500 ease-in-out">
             2023 Teachings
           </button>
         </main>
       </div>
 
+      {/* make it an array map */}
       <div className="px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mx-auto">
         <StructureOfTeaching source={`/assets/teaching1.png`} link="" />
         <StructureOfTeaching source={`/assets/teaching2.png`} link="" />
