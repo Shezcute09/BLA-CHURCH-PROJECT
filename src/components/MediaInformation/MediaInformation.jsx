@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function MediaInformation() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-evenly mb-20 mt-10 px-4 gap-4">
+      <div className="flex flex-wrap justify-evenly mb-20 mt-10 px-4 gap-4">
         <div className="bg-[#d9d9d9] flex flex-col gap-6 px-4 pb-10 md:pb-20 w-full md:w-[300px] md:px-6">
           <div className="my-5">
             <h2 className="font-bold md:text-lg text-xl ">RECENT NEWS</h2>
