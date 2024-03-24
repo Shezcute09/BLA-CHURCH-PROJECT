@@ -3,32 +3,32 @@ import { Link } from "react-router-dom";
 export function AudioTeachings() {
   const teachingsRoute = [
     {
-      source: "/public/assets/teaching1.png",
+      source: "/assets/teaching1.png",
       link: "",
     },
 
     {
-      source: "/public/assets/teaching2.png",
+      source: "/assets/teaching2.png",
       link: "",
     },
 
     {
-      source: "/public/assets/teaching3.png",
+      source: "/assets/teaching3.png",
       link: "",
     },
 
     {
-      source: "/public/assets/teaching4.png",
+      source: "/assets/teaching4.png",
       link: "",
     },
 
     {
-      source: "/public/assets/teaching5.png",
+      source: "/assets/teaching5.png",
       link: "",
     },
 
     {
-      source: "/public/assets/teaching6.png",
+      source: "/assets/teaching6.png",
       link: "",
     },
   ];
